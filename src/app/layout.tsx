@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Syne, DM_Sans } from "next/font/google";
 import "./globals.css";
+import siteContent from "@/content/site-content.json";
 
 const syne = Syne({
   subsets: ["latin"],
@@ -18,12 +19,12 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Data · Kolawoles",
-  description: "BI Engineering & Analytics — Power BI, Microsoft Fabric, Python, SQL. Adefemi Kolawole.",
+  title: siteContent.metadata.title,
+  description: siteContent.metadata.description,
   openGraph: {
-    title: "Data · Kolawoles",
-    description: "BI Engineering & Analytics portfolio.",
-    url: "https://data.kolawoles.com",
+    title: siteContent.metadata.openGraph.title,
+    description: siteContent.metadata.openGraph.description,
+    url: siteContent.metadata.openGraph.url,
   },
 };
 

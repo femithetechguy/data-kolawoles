@@ -1,0 +1,133 @@
+{
+  "metadata": {
+    "title": "Data · Kolawoles",
+    "description": "BI Engineering & Analytics — Power BI, Microsoft Fabric, Python, SQL. Adefemi Kolawole.",
+    "openGraph": {
+      "title": "Data · Kolawoles",
+      "description": "BI Engineering & Analytics portfolio.",
+      "url": "https://data.kolawoles.com"
+    }
+  },
+  "brand": {
+    "homeHref": "https://kolawoles.com",
+    "primary": "KOLA",
+    "secondary": "WOLES",
+    "subLabel": "Data"
+  },
+  "nav": {
+    "sections": [
+      { "label": "Work", "href": "#work" },
+      { "label": "Stack", "href": "#stack" },
+      { "label": "About", "href": "#about" },
+      { "label": "Contact", "href": "#contact" }
+    ],
+    "cta": {
+      "label": "Hire Me",
+      "href": "mailto:adefemi@kolawoles.com"
+    }
+  },
+  "hero": {
+    "eyebrow": "Analytics & BI · FTTG Solutions LLC",
+    "title": {
+      "lineOne": "Data that",
+      "accentLine": "drives decisions."
+    },
+    "description": "Senior BI Engineer with 8+ years in the Microsoft data ecosystem. I build reporting systems that turn complex operational data into clear, actionable intelligence for stakeholders at every level.",
+    "primaryCta": {
+      "label": "View Work",
+      "href": "#work"
+    },
+    "secondaryCta": {
+      "label": "Get in Touch",
+      "href": "mailto:adefemi@kolawoles.com"
+    },
+    "scrollHint": "Scroll"
+  },
+  "work": {
+    "eyebrow": "Selected Work",
+    "title": "Selected Outcomes",
+    "currentBadgeLabel": "Featured",
+    "projects": [
+      {
+        "title": "Behavioral Health Performance Platform",
+        "context": "County-wide provider network",
+        "problem": "Operational and financial reporting was fragmented across 20 providers, making cross-provider performance difficult to monitor.",
+        "solution": "Built a 15-page Power BI reporting system with a Python ETL pipeline and SharePoint ingestion through Microsoft Graph API.",
+        "impact": "Delivered a single performance view for staffing, census, finance, CPO, and SE metrics to support faster county-level decisions.",
+        "tags": ["Power BI", "DAX", "Python", "Microsoft Fabric", "SharePoint API", "Deneb/Vega-Lite"],
+        "accent": true
+      },
+      {
+        "title": "Hospital Operations Intelligence Layer",
+        "context": "Multi-department clinical operations",
+        "problem": "Leaders lacked a consistent way to compare operational and clinical performance across departments.",
+        "solution": "Designed dimensional models and semantic reporting layers, then shipped executive dashboards for shared KPI visibility.",
+        "impact": "Improved executive reporting consistency and reduced decision latency across departmental stakeholders.",
+        "tags": ["Power BI", "SQL Server", "DAX", "Azure"],
+        "accent": false
+      },
+      {
+        "title": "Insurance Portfolio Analytics Hub",
+        "context": "Underwriting and claims performance",
+        "problem": "Business teams relied on ad hoc requests for visibility into policy and claims behavior.",
+        "solution": "Built a self-service analytics layer for underwriting and claims, backed by modeled data and reusable metrics.",
+        "impact": "Enabled business users to explore portfolio performance independently and reduced reporting dependence on IT.",
+        "tags": ["Power BI", "Snowflake", "dbt", "DAX"],
+        "accent": false
+      },
+      {
+        "title": "Logistics KPI Command Center",
+        "context": "Warehouse and fulfillment workflows",
+        "problem": "Core supply chain metrics were distributed across separate reports and difficult to track in one flow.",
+        "solution": "Created consolidated KPI dashboards for warehouse operations, order fulfillment, and carrier performance tracking.",
+        "impact": "Provided operations teams with a unified view of logistics health and clearer bottleneck detection.",
+        "tags": ["Power BI", "SQL", "Python", "Excel"],
+        "accent": false
+      },
+      {
+        "title": "Retail Performance Reporting Suite",
+        "context": "Regional and departmental retail analytics",
+        "problem": "Teams needed clearer visibility into membership and inventory performance across locations.",
+        "solution": "Built dashboard suites for department and regional analysis with focused membership and inventory reporting.",
+        "impact": "Improved planning conversations by standardizing retail performance insights across business units.",
+        "tags": ["Power BI", "SQL", "Power Query"],
+        "accent": false
+      }
+    ]
+  },
+  "stack": {
+    "eyebrow": "Technical Depth",
+    "title": "Stack",
+    "groups": [
+      { "category": "Visualization", "items": ["Power BI", "Deneb / Vega-Lite", "Power Pages"] },
+      { "category": "Data Platform", "items": ["Microsoft Fabric", "Azure Synapse", "Snowflake", "SQL Server"] },
+      { "category": "Languages", "items": ["DAX", "Python", "SQL", "M (Power Query)", "TypeScript"] },
+      { "category": "ETL / Integration", "items": ["Azure Data Factory", "Microsoft Graph API", "dbt", "Pandas"] },
+      { "category": "Modeling", "items": ["Dimensional Modeling", "Star Schema", "Semantic Layer", "RLS/OLS"] },
+      { "category": "Tools", "items": ["DAX Studio", "Tabular Editor", "VS Code", "Git"] }
+    ]
+  },
+  "about": {
+    "eyebrow": "Background",
+    "title": "About",
+    "paragraphs": [
+      "I deliver full-stack web engineering services with a strong focus on TypeScript, clean API design, and maintainable product architecture.",
+      "I combine application engineering with BI consulting capability to deliver data-informed platforms that improve reporting, operations, and business decision-making."
+    ]
+  },
+  "contact": {
+    "eyebrow": "Available for Engagements",
+    "title": "Let's build something.",
+    "cta": {
+      "label": "adefemi@kolawoles.com",
+      "href": "mailto:adefemi@kolawoles.com"
+    }
+  },
+  "footer": {
+    "copyrightOwner": "FTTG Solutions LLC",
+    "links": [
+      { "label": "Hub", "href": "https://kolawoles.com" },
+      { "label": "App Dev", "href": "https://appdev.kolawoles.com" }
+    ]
+  }
+}
