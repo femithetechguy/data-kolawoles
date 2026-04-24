@@ -17,8 +17,8 @@ export default function Cursor() {
 
   return (
     <>
-      <motion.div style={{ x: tx, y: ty }} className="pointer-events-none fixed top-0 left-0 z-50 h-8 w-8 -translate-x-1/2 -translate-y-1/2 rounded-full border border-white/10" />
-      <motion.div style={{ x, y }} className="pointer-events-none fixed top-0 left-0 z-50 h-1.5 w-1.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-white/70" />
+      <motion.div style={{ x: tx, y: ty }} className="app-cursor pointer-events-none fixed top-0 left-0 z-50 h-8 w-8 -translate-x-1/2 -translate-y-1/2 rounded-full border border-white/10" />
+      <motion.div style={{ x, y }} className="app-cursor pointer-events-none fixed top-0 left-0 z-50 h-1.5 w-1.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-white/70" />
     </>
   );
 }
